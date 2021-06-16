@@ -53,6 +53,8 @@ struct AdminTipView: View {
                     
                     Spacer()
                 }
+                
+                Spacer()
             }
             .foregroundColor(.white)
             .padding()

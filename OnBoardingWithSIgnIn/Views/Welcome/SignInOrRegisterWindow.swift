@@ -54,7 +54,7 @@ struct SignInOrRegisterWindow: View {
         
         VStack(spacing: 8) {
             
-            CustomTextField(text: $email, placeholder: Text("Email") , imageName: "envelope")
+            CustomTextField(text: $email, placeholder: Text("Email") , imageName: "envelope", textColor: .gray)
                 .padding()
                 .background(Color(.init(white: 1, alpha: 0.15)))
                 .cornerRadius(10)

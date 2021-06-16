@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		866931D22673B32C0081E8F6 /* CompleteRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866931D12673B32C0081E8F6 /* CompleteRegistrationView.swift */; };
+		8684943C2679A1FF005F52F3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684943B2679A1FF005F52F3 /* ProfileView.swift */; };
+		8684943E2679A5D9005F52F3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684943D2679A5D9005F52F3 /* HeaderView.swift */; };
+		868494412679A6B9005F52F3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868494402679A6B9005F52F3 /* CustomTabBar.swift */; };
+		868494442679ACB8005F52F3 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868494432679ACB8005F52F3 /* SideMenuView.swift */; };
+		868494482679ACDC005F52F3 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868494472679ACDC005F52F3 /* SideMenuHeaderView.swift */; };
+		8684944A2679ACED005F52F3 /* SideMenuOptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868494492679ACED005F52F3 /* SideMenuOptionListView.swift */; };
+		8684944C2679AD20005F52F3 /* SideMenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684944B2679AD20005F52F3 /* SideMenuOptionCell.swift */; };
+		8684944E2679FE31005F52F3 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684944D2679FE31005F52F3 /* TabViews.swift */; };
+		868494502679FF16005F52F3 /* CustomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684944F2679FF16005F52F3 /* CustomTabs.swift */; };
 		86CA56482672656800392373 /* OnBoardingWithSIgnInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA56472672656800392373 /* OnBoardingWithSIgnInApp.swift */; };
 		86CA564A2672656800392373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA56492672656800392373 /* ContentView.swift */; };
 		86CA564C2672656A00392373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CA564B2672656A00392373 /* Assets.xcassets */; };
@@ -44,6 +53,15 @@
 
 /* Begin PBXFileReference section */
 		866931D12673B32C0081E8F6 /* CompleteRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegistrationView.swift; sourceTree = "<group>"; };
+		8684943B2679A1FF005F52F3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8684943D2679A5D9005F52F3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		868494402679A6B9005F52F3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		868494432679ACB8005F52F3 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		868494472679ACDC005F52F3 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		868494492679ACED005F52F3 /* SideMenuOptionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionListView.swift; sourceTree = "<group>"; };
+		8684944B2679AD20005F52F3 /* SideMenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionCell.swift; sourceTree = "<group>"; };
+		8684944D2679FE31005F52F3 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		8684944F2679FF16005F52F3 /* CustomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabs.swift; sourceTree = "<group>"; };
 		86CA56442672656800392373 /* OnBoardingWithSIgnIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnBoardingWithSIgnIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CA56472672656800392373 /* OnBoardingWithSIgnInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingWithSIgnInApp.swift; sourceTree = "<group>"; };
 		86CA56492672656800392373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				86CA56722672673500392373 /* HomeView.swift */,
+				8684943D2679A5D9005F52F3 /* HeaderView.swift */,
+				8684943B2679A1FF005F52F3 /* ProfileView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -117,6 +137,28 @@
 				86CA56742672675700392373 /* AdminView.swift */,
 			);
 			path = Admin;
+			sourceTree = "<group>";
+		};
+		8684943F2679A687005F52F3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				868494402679A6B9005F52F3 /* CustomTabBar.swift */,
+				8684944D2679FE31005F52F3 /* TabViews.swift */,
+				8684944F2679FF16005F52F3 /* CustomTabs.swift */,
+				866931CF2673A8AE0081E8F6 /* Home */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		868494422679ACAE005F52F3 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				868494432679ACB8005F52F3 /* SideMenuView.swift */,
+				868494472679ACDC005F52F3 /* SideMenuHeaderView.swift */,
+				868494492679ACED005F52F3 /* SideMenuOptionListView.swift */,
+				8684944B2679AD20005F52F3 /* SideMenuOptionCell.swift */,
+			);
+			path = "Side Menu";
 			sourceTree = "<group>";
 		};
 		86CA563B2672656800392373 = {
@@ -186,9 +228,10 @@
 			isa = PBXGroup;
 			children = (
 				86CA566E2672671000392373 /* AppNavigation.swift */,
+				868494422679ACAE005F52F3 /* Side Menu */,
+				8684943F2679A687005F52F3 /* Tabs */,
 				86CA568D26726F4400392373 /* Onboarding */,
 				866931CE2673A8A30081E8F6 /* Welcome */,
-				866931CF2673A8AE0081E8F6 /* Home */,
 				866931D02673A8B40081E8F6 /* Admin */,
 			);
 			path = Views;
@@ -323,24 +366,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CA56672672665900392373 /* CustomSecureField.swift in Sources */,
+				868494482679ACDC005F52F3 /* SideMenuHeaderView.swift in Sources */,
 				86CA56652672664500392373 /* CustomTextField.swift in Sources */,
 				866931D22673B32C0081E8F6 /* CompleteRegistrationView.swift in Sources */,
 				86CA564A2672656800392373 /* ContentView.swift in Sources */,
 				86CA566F2672671100392373 /* AppNavigation.swift in Sources */,
 				86CA568F26726F8D00392373 /* WalkthroughScreen.swift in Sources */,
 				86CA56932672700200392373 /* AdminTipView.swift in Sources */,
+				8684943E2679A5D9005F52F3 /* HeaderView.swift in Sources */,
 				86CA566D267266F600392373 /* AppleUser.swift in Sources */,
 				86CA56482672656800392373 /* OnBoardingWithSIgnInApp.swift in Sources */,
 				86CA56732672673500392373 /* HomeView.swift in Sources */,
+				8684944C2679AD20005F52F3 /* SideMenuOptionCell.swift in Sources */,
 				86CA565C267265AC00392373 /* HalfModalView.swift in Sources */,
 				86CA56712672672400392373 /* WelcomeView.swift in Sources */,
+				8684944A2679ACED005F52F3 /* SideMenuOptionListView.swift in Sources */,
 				86CA565A2672659600392373 /* Modifiers+Button.swift in Sources */,
 				86CA565E267265EB00392373 /* KeyboardAwareModifier.swift in Sources */,
+				868494502679FF16005F52F3 /* CustomTabs.swift in Sources */,
 				86CA569126726FDA00392373 /* ScreenView.swift in Sources */,
+				868494442679ACB8005F52F3 /* SideMenuView.swift in Sources */,
 				86CA56582672658600392373 /* Constants.swift in Sources */,
 				86CA56972672741500392373 /* CustomerTipView.swift in Sources */,
+				8684943C2679A1FF005F52F3 /* ProfileView.swift in Sources */,
 				86CA566B267266CD00392373 /* User.swift in Sources */,
 				86CA56772672676600392373 /* SignInOrRegisterWindow.swift in Sources */,
+				868494412679A6B9005F52F3 /* CustomTabBar.swift in Sources */,
+				8684944E2679FE31005F52F3 /* TabViews.swift in Sources */,
 				86CA56692672669100392373 /* AuthViewModel.swift in Sources */,
 				86CA56952672701700392373 /* TipWindowView.swift in Sources */,
 				86CA56752672675700392373 /* AdminView.swift in Sources */,

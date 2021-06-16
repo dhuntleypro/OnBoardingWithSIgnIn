@@ -54,6 +54,7 @@ struct WalkthroughScreen: View {
                     } else {
                         
                         CustomerTipView()
+                            .foregroundColor(.white)
                     }
                 
                 }

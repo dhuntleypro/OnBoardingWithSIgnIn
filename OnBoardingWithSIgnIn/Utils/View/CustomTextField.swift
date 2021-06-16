@@ -13,11 +13,13 @@ struct CustomTextField: View {
     let placeholder: Text
     let imageName : String
     
+    @State var textColor : Color
+    
     var body: some View {
         ZStack(alignment: .leading) {
             if text.isEmpty {
                 placeholder
-                    .foregroundColor(Color(.init(white: 1, alpha: 0.87)))
+                    .foregroundColor(textColor) // .init(white: 1, alpha: 0.87)
                     .padding(.leading, 40)
             }
             
@@ -26,7 +28,7 @@ struct CustomTextField: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
-                    .foregroundColor(.white)
+                    .foregroundColor(textColor)
                 
                 TextField("", text: $text)
             }
@@ -36,9 +38,9 @@ struct CustomTextField: View {
 
 struct CustomTextField_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTextField(text: .constant(""), placeholder:  Text(""), imageName: "envolope")
-            .frame(height: 300)
-            .background(Color.green)
+        CustomTextField(text: .constant(""), placeholder:  Text("Search for anything"), imageName: "magnifyingglass", textColor: .red)
+           
+    //     .modifier(GrayBackgroundSmall())
    
             
     }
